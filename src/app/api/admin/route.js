@@ -7,10 +7,10 @@ export async function POST(req) {
     await connectToDatabase()
     console.log('Connected to database')
 
-    const { username, password } = await req.json() // Use username instead of email
+    const { username, password } = await req.json() 
     console.log('username', username)
     console.log('pass', password)
-    const user = await Admin.findOne({ username }) // Query by username
+    const user = await Admin.findOne({ username }) 
     console.log('User found:', user)
 
     if (!user) {

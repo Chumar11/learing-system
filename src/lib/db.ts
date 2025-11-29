@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb+srv://Matthieu63:sitejs63@cluster0.bogttlb.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=Cluster0' as string;
+// const MONGODB_URI = 'mongodb+srv://Matthieu63:sitejs63@cluster0.bogttlb.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=Cluster0' as string;
+const MONGODB_URI = 'mongodb+srv://2223016:N6bVPiFwmE5hhoI5@cluster0.3dvrp.mongodb.net/learning-system?retryWrites=true&w=majority' as string;
 
 if (!MONGODB_URI) {
   throw new Error('Please define MONGODB_URI in your .env.local');
